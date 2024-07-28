@@ -1,0 +1,48 @@
+﻿body {
+}
+
+    body > div {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 550px;
+        height: 750px;
+        margin: auto;
+        background-color: #412727;
+        padding: 10px;
+    }
+
+div > div {
+    color: #724040;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+div :nth-child(1) > button {
+    background-image: url('img/img11.png');
+}
+
+div :nth-child(2) > button {
+    background-image: url('img/img22.png');
+}
+
+div :nth-child(3) > button {
+    background-image: url('img/img33.png');
+}
+
+div div div {
+    width: 90px;
+    height: 160px;
+}
+
+.cola div {
+    background-image: url('img/img11.png');
+}
+
+.fanta div {
+    background-image: url('img/img22.png');
+}
+
+.sprite div {
+    background-image: url('img/img33.png');
+}
